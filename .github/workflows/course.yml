@@ -2,7 +2,7 @@ name: Course
 on:
   workflow_dispatch:
   schedule:
-    - cron: "10 6 * * 3"
+    - cron: "20 8 * * *"
 
 jobs:
   AutoSign:
